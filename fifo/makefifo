@@ -1,0 +1,5 @@
+
+
+for id in {1..18}; do
+    [ -e /home/mc/Dev/fifo/$id.ff ] || mkfifo $id.ff
+done
